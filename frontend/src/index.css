@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Kalnia', serif;
+}
+
+th, tr, td{
+    border: 3px #000 dotted;
+    text-align: center;
+    padding: 3px;
+}
+td{
+    font-size: 18px;
+    font-family: 'Kalnia', serif;
+}
+
+form{
+    border: 3px dotted #000;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
